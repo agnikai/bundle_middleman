@@ -1,0 +1,36 @@
+.card {
+	border: 1px solid black;
+	max-width: 20em;
+	margin-bottom: 50px;
+	height: 500px;
+	.card-header h1 {
+		margin-top: 0;
+		background-color: $dark-blue;
+		color: white;
+		font-family:'Open Sans Light', sans-serif;
+		font-size: 20px;
+		padding: 10px 5px 5px;
+	}
+	.card-body {
+		button.btn.btn-default {
+			background: $light-blue;
+			color: white;
+			border: none;
+			border-radius: 0;
+			margin: 20px;
+			width: 15em;
+			padding: 10px 0;
+			font-family:'Open Sans Light', sans-serif;
+		}
+		.divider {
+			// border-top: 1px solid black;
+			span {
+				border: 1px solid black;
+				border-radius: 100%;
+				padding: 2px;
+				text-align: center;
+				margin: 20px auto;
+			}
+		}
+	}
+}
