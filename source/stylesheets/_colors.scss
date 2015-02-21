@@ -1,2 +1,13 @@
 $light-blue: #44a8de;
 $dark-blue: #195D90;
+$light-gray: #D3D3D3;
+$dark-gray: #a8a8a8;
+
+@mixin button-default {
+	background: $light-blue;
+	color: white;
+	border: none;
+	border-radius: 0;
+	width: 15em;
+	font-family:'Open Sans Light', sans-serif;
+}

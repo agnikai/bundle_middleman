@@ -1,35 +1,51 @@
-.card {
-	border: 1px solid black;
-	max-width: 20em;
-	margin-bottom: 50px;
-	height: 500px;
-	.card-header h1 {
-		margin-top: 0;
-		background-color: $dark-blue;
-		color: white;
-		font-family:'Open Sans Light', sans-serif;
-		font-size: 20px;
-		padding: 10px 5px 5px;
-	}
-	.card-body {
-		button.btn.btn-default {
-			background: $light-blue;
+.create-cards {
+	margin: 20px 50px 50px 60px;
+	.card {
+		box-shadow: 1px 10px 10px 5px $light-gray;
+		max-width: 20em;
+		height: 500px;
+		.card-header h1 {
+			margin-top: 0;
+			background-color: $dark-blue;
 			color: white;
-			border: none;
-			border-radius: 0;
-			margin: 20px;
-			width: 15em;
-			padding: 10px 0;
 			font-family:'Open Sans Light', sans-serif;
+			font-size: 20px;
+			padding: 10px 5px 5px;
 		}
-		.divider {
-			// border-top: 1px solid black;
-			span {
-				border: 1px solid black;
-				border-radius: 100%;
-				padding: 2px;
-				text-align: center;
-				margin: 20px auto;
+		.card-body {
+			text-align: center;
+			h2 {
+				color: $dark-gray;
+				padding: 10px;
+				font-size: 20px;
+				font-family:'Open Sans Light', sans-serif;
+				a {
+					color: $light-blue;
+					font-size: 16px;
+				}
+			}
+			button.btn.btn-default {
+				@include button-default;
+				font-size: 16px;
+				margin: 20px;
+				padding: 10px;
+			}
+			button.btn.btn-success {
+				@include button-default;
+				font-size: 14px;
+				margin: 10px;
+				width: 15em;
+			}
+
+			.divider {
+				span {
+					color: $light-gray;
+					border: 1px solid $light-gray;
+					border-radius: 100%;
+					padding: 2px;
+					text-align: center;
+					margin: 20px auto;
+				}
 			}
 		}
 	}
