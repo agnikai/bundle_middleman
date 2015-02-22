@@ -11,12 +11,34 @@ title: CampusBundle
 						<h1>Group</h1>
 					</div>
 					<div class="card-body">
-						<button type="button" class="btn btn-default">Create a Group</button>
-						<div class="divider">
-							<span>Or</span>
+						<div id="default-group-body">
+							<button type="button" class="btn btn-default" id="create-group-button">Create a Group</button>
+							<div class="divider">
+								<span>Or</span>
+							</div>
+							<button type="button" class="btn btn-default">Import facebook Group</button>
+							<img class="icon img-responsive" src="/images/icon1.png" />
 						</div>
-						<button type="button" class="btn btn-default">Import facebook Group</button>
-						<img class="icon img-responsive" src="/images/icon1.png" />
+						<div id="create-group" style="display:none;">
+							<form>
+							  <div class="form-group">
+							    <label for="groupname">Group Name</label>
+							    <input type="name" class="form-control" id="groupname">
+							  </div>
+							</form>
+							<form>
+							  <div class="form-group">
+							    <label for="grouptype">Group Type</label>
+							    <input type="name" class="form-control" id="grouptype">
+							  </div>
+							</form>
+							<form>
+							  <div class="form-group">
+							    <label for="description">Description</label>
+							    <input type="name" class="form-control" id="description">
+							  </div>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -26,12 +48,34 @@ title: CampusBundle
 						<h1>Event</h1>
 					</div>
 					<div class="card-body">
-						<button type="button" class="btn btn-default">Create a Event</button>
-						<div class="divider">
-							<span>Or</span>
+						<div id="default-event-body">
+							<button type="button" class="btn btn-default" id="create-event-button">Create a Event</button>
+							<div class="divider">
+								<span>Or</span>
+							</div>
+							<button type="button" class="btn btn-default">Import facebook Event</button>
+							<img class="icon img-responsive" src="/images/icon2.png" />
 						</div>
-						<button type="button" class="btn btn-default">Import facebook Event</button>
-						<img class="icon img-responsive" src="/images/icon2.png" />
+						<div id="create-event" style="display:none;">
+							<form>
+							  <div class="form-group">
+							    <label for="eventname">Event Name</label>
+							    <input type="name" class="form-control" id="eventname">
+							  </div>
+							</form>
+							<form>
+							  <div class="form-group">
+							    <label for="eventtype">Event Type</label>
+							    <input type="name" class="form-control" id="eventtype">
+							  </div>
+							</form>
+							<form>
+							  <div class="form-group">
+							    <label for="description">Description</label>
+							    <input type="name" class="form-control" id="description">
+							  </div>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
