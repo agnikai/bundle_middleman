@@ -1,7 +1,15 @@
- .card .card-body {
-	 .model-content {
-		.modal-header {
-			background-color: $dark-blue;
-		}
+.modal-header {
+	background-color: $dark-blue;
+	h4.modal-title {
+		color: white;
+		text-align: left;
+	}
+}
+.modal-body {
+	label {
+		color: $dark-blue;
+	}
+	.form-group {
+		width: 15em;
 	}
 }
