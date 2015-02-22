@@ -13,3 +13,14 @@
 		width: 15em;
 	}
 }
+
+
+#create-group, #create-event {
+	form {
+		label{
+			margin-top: 20px;
+			color: $dark-blue;
+			text-align: left;
+		}
+	}
+}
